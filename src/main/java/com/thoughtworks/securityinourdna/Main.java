@@ -26,12 +26,12 @@ public class Main {
             final ConnectionFactory connectionFactory = new ConnectionFactory();
             final UserRepo userRepo = new UserRepo(connectionFactory.createInMemoryDatabase());
 
-            userRepo.addName("Alice", "Brown", "6b3a55e0261b0304143f805a24924d0c1c44524821305f31d9277843b8a10f4e");
-            userRepo.addName("Bob", "Smith", "34c9b6ca63682155572447dbed32a8e6a91990982ec5b36a24c40dfe24595660");
-            userRepo.addName("Eve", "Johnson", "e04d080e73c20efea9601b256572f77cf142ec8c32885a8febd57b48fb001fe3");
-            userRepo.addName("Mallory", "Jones", "7b143e21a65c40486856fda967552591f8507b4f6a6426cabb97a872256a275a");
-            userRepo.addName("Dan", "Williams", "e9b4fcd28f6c2db79a83111d554cacec51517bce70e69a0d6d8b5da3af0a8b1a");
-            userRepo.addName("admin", "Almighty", "c16abba613aa32cf83b2b3bf164bc4873acf6ed2560a3563922f58915120e5c6");
+            userRepo.addName("Alice", "Brown", "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8");
+            userRepo.addName("Bob", "Smith", "ae4a41f7d414c4daef82a048b4240c56228b738649e032fe3ac6a482d4fb97bc");
+            userRepo.addName("Eve", "Johnson", "89b4c9f491523c0dd9bc9f924ea0e781e68eaa54f66ecc6fc155d97dc5a45399");
+            userRepo.addName("Mallory", "Jones", "2ce89dc2ab42ea761853f2908d17a722f0a4dbe93ec493469e86ea681960e6a7");
+            userRepo.addName("Dan", "Williams", "982a36019792f43b7dae5d0935b8a24b1049e047639cf432a26aa1dbd28cf23e");
+            userRepo.addName("admin", "Almighty", "19ea60d7f67e88549d3182b885705b1c0240ad7e5182f6fe279af857d6cd7e13");
 
             return userRepo;
         } catch (Exception e) {
