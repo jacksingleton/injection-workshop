@@ -10,8 +10,7 @@ The following commands should run without errors:
 ## Exploit the Application
 
 * Find a way to login as the administrator named “admin” without using their password.
-* Enumerate all the user passwords in the database and identify whether the
-  application uses salts or not.
+* Bonus: Enumerate all the user passwords in the database
 * Hint: It will be helpful to
   [download](https://db.apache.org/derby/derby_downloads.html) Derby and use
   the ij tool to try different sql commands against a live database.
