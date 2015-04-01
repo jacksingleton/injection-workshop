@@ -50,10 +50,9 @@ Open the print dialog and either select a printer or export to PDF
 ## Black box demo (slide #7)
 * package application: `mvn -DskipTests clean package`
 * run the app locally with: java -jar target/injection-1.0-SNAPSHOT-jar-with-dependencies.jar
-* print first last name in the database: `' or 1=1 --comment'`
-
-## Task Answers
->! lol i’m secret
+* Task Answers
+ * Login as Admin: `admin' or 1=1 --comment'`
+ * Enumerate all passwords: `’ union all select first_name, password, last_name from users offset 1 rows -- comment` (iterate through 0,1,2...)
 
 ## Fixing the code (slides 9/10)
 The problem is sql substitution via concatination in `UserRepo.java:findLastName`
