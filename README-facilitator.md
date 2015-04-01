@@ -51,8 +51,9 @@ Open the print dialog and either select a printer or export to PDF
 * package application: `mvn -DskipTests clean package`
 * run the app locally with: java -jar target/injection-1.0-SNAPSHOT-jar-with-dependencies.jar
 * print first last name in the database: `' or 1=1 --comment'`
-* enumerate all last names:
-* `for i in $(seq 0 10); do echo "' or 1=1 offset $i rows --comment" | java -jar target/injection-1.0-SNAPSHOT-jar-with-dependencies.jar; done`
+
+## Task Answers
+>! lol i’m secret
 
 ## Fixing the code (slides 9/10)
 The problem is sql substitution via concatination in `UserRepo.java:findLastName`
