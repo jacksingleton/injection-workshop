@@ -61,8 +61,10 @@ Prepared Statements should be used as in `addNames`
 
 ## How to keep the session under 1 hour
 With the goal of focusing on secure software development, this is how you can timebox your exercises in order to get the most out of your session.
+
 1. 10 min of introduction to injection
 2. 20 min of figuring out how to hack the program
  * We kept this small by circling around to help guide people in the right direction with hints so they’re not spending too much time exploiting the vulnerability.
  * Example: 10 minutes of learning how to complete the ‘ with another ‘ and use “OR 1=1” and the comment “--” symbol to get rid of the rest of the sql. Then give them “ ‘ OR 1=1 -- comment “ as a hint to get them to finish the task. After 15 minutes, give them the answer to getting a login as admin.
+
 3. 30 min of fixing the code to keep this from happening by using the given unit test
