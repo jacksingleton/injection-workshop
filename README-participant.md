@@ -15,8 +15,7 @@ Hint: It will be helpful to [download](https://db.apache.org/derby/derby_downloa
 the ij tool to try different sql commands against a live database.
 
 Bonus:
-Enumerate all the user passwords in the database and identify whether the
-application uses salts or not.
+Enumerate all the user passwords in the database.
 
 ## Generate IDEA Project
 * ```mvn idea:idea```
